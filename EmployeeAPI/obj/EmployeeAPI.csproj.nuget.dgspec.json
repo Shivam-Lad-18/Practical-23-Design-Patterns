@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj": {}
+    "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj": {
+    "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj",
         "projectName": "EmployeeAPI",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeAPI\\obj\\",
+        "projectPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeAPI\\EmployeeAPI.csproj",
+        "packagesPath": "C:\\Users\\shivam.lad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shivam.lad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj"
+              "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj": {
+                "projectPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj"
               },
-              "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj": {
-                "projectPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj"
+              "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj": {
+                "projectPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj"
               }
             }
           }
@@ -51,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -81,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj": {
+    "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj",
+        "projectUniqueName": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj",
         "projectName": "EmployeeBAL",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeBAL\\obj\\",
+        "projectPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeBAL\\EmployeeBAL.csproj",
+        "packagesPath": "C:\\Users\\shivam.lad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeBAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shivam.lad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -125,7 +126,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -146,24 +148,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj": {
+    "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj",
+        "projectUniqueName": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj",
         "projectName": "EmployeeDAL",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\Practical-23\\EmployeeDAL\\obj\\",
+        "projectPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeDAL\\EmployeeDAL.csproj",
+        "packagesPath": "C:\\Users\\shivam.lad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shivam.lad\\Desktop\\Trainee\\Design Pattern\\Practical-23\\EmployeeDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shivam.lad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,7 +192,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -227,7 +230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

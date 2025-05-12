@@ -5,3 +5,10 @@
 11-05-2025 23:47:47: Fetched all employees
 11-05-2025 23:52:34: Fetched all employees
 12-05-2025 01:06:01: Calculated overtime for Employee 1, Dept: IT, Hours: 200 => Pay: Rs. 40000
+12-05-2025 18:04:35: Fetched all employees
+12-05-2025 18:05:04: Created employee shivam
+12-05-2025 18:05:29: Created employee john
+12-05-2025 18:05:32: Fetched all employees
+12-05-2025 18:05:59: [Factory] Employee shivam (Dept: Sales) => Rs. 20000
+12-05-2025 18:06:14: [AbstractFactory] Employee john (Dept: IT) => Rs. 40000
+12-05-2025 18:13:54: [Factory] Employee shivam (Dept: Sales) => Rs. 20000

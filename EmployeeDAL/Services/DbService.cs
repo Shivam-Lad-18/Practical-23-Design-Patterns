@@ -14,7 +14,7 @@ namespace EmployeeDAL.Services
 
         public DbService()
         {
-            _connectionString = "Server=SHIVAM-PC\\SQLEXPRESS;Database=DesignPatterns;Trusted_Connection=True;Encrypt=False;";
+            _connectionString = "Server=SF-CPU-0159\\SQLEXPRESS01;Database=DesignPatterns;Trusted_Connection=True;Encrypt=False;";
         }
 
         public static DbService Instance => _instance.Value;

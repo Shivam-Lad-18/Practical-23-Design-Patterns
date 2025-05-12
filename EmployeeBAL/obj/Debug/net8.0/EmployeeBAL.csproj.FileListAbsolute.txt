@@ -10,3 +10,15 @@ C:\Users\HP\source\repos\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.d
 C:\Users\HP\source\repos\Practical-23\EmployeeBAL\obj\Debug\net8.0\refint\EmployeeBAL.dll
 C:\Users\HP\source\repos\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.pdb
 C:\Users\HP\source\repos\Practical-23\EmployeeBAL\obj\Debug\net8.0\ref\EmployeeBAL.dll
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\bin\Debug\net8.0\EmployeeBAL.deps.json
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\bin\Debug\net8.0\EmployeeBAL.dll
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\bin\Debug\net8.0\EmployeeBAL.pdb
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.AssemblyInfoInputs.cache
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.AssemblyInfo.cs
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.csproj.CoreCompileInputs.cache
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.sourcelink.json
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.dll
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\refint\EmployeeBAL.dll
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\EmployeeBAL.pdb
+C:\Users\shivam.lad\Desktop\Trainee\Design Pattern\Practical-23\EmployeeBAL\obj\Debug\net8.0\ref\EmployeeBAL.dll

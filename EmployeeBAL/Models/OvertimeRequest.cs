@@ -9,7 +9,6 @@ namespace EmployeeBAL.Models
     public class OvertimeRequest
     {
         public int EmployeeId { get; set; }
-        public int DepartmentId { get; set; }
         public int Hours { get; set; }
     }
 }

@@ -35,7 +35,7 @@ namespace EmployeeAPI.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var emp = _repo.GetById(id);
+            Employee emp = _repo.GetById(id);
             _logger.Log($"Fetched employee with ID {id}");
             return emp == null ? NotFound() : Ok(emp);
         }
@@ -43,7 +43,7 @@ namespace EmployeeAPI.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var employees = _repo.GetAll();
+            List<Employee> employees = _repo.GetAll();
             _logger.Log("Fetched all employees");
             return Ok(employees);
         }
@@ -72,32 +72,55 @@ namespace EmployeeAPI.Controllers
             return Ok("Employee soft deleted");
         }
 
-        // 🔸 New API for Overtime Calculation using Abstract Factory
-        [HttpPost("overtime")]
-        public IActionResult GetOvertimePay([FromBody] OvertimeRequest request)
+        [HttpPost("overtime/factory")]
+        public IActionResult GetOvertimePayUsingFactory([FromBody] OvertimeRequest request)
         {
-            var department = _deptRepo.GetById(request.DepartmentId);
+            Employee employee = _repo.GetById(request.EmployeeId);
+            if (employee == null)
+                return NotFound("Employee not found");
 
+            Department department = _deptRepo.GetById(employee.DepartmentId);
             if (department == null)
                 return NotFound("Department not found");
 
-            var departmentName = department.DepartmentName;
-            var factory = departmentName switch
+            IDepartmentOvertimeCalculator calculator = DepartmentFactory.GetCalculator(department.DepartmentName); // Factory pattern
+            if (calculator == null)
+                return BadRequest("Unsupported department");
+
+            decimal pay = calculator.CalculateOvertime(request.Hours);
+            _logger.Log($"[Factory] Employee {employee.EmployeeName} (Dept: {department.DepartmentName}) => Rs. {pay}");
+            return Ok(new { OvertimePay = pay });
+        }
+
+        [HttpPost("overtime/abstractfactory")]
+        public IActionResult GetOvertimePayUsingAbstractFactory([FromBody] OvertimeRequest request)
+        {
+            Employee employee = _repo.GetById(request.EmployeeId);
+            if (employee == null)
+                return NotFound("Employee not found");
+
+            Department department = _deptRepo.GetById(employee.DepartmentId);
+            if (department == null)
+                return NotFound("Department not found");
+
+            string departmentName = department.DepartmentName;
+
+            IOvertimeFactory? factory = departmentName switch
             {
-                "IT" or "HR" => (IOvertimeFactory)_indoorFactory,
-                "Sales" or "OnSite" => (IOvertimeFactory)_outdoorFactory,
+                "IT" or "HR" => _indoorFactory,
+                "Sales" or "OnSite" => _outdoorFactory,
                 _ => null
             };
 
-
             if (factory == null)
-                return BadRequest("Unknown department category");
+                return BadRequest("Unsupported department");
 
-            var calculator = factory.GetOvertimeCalculator(departmentName);
-            var pay = calculator.CalculateOvertime(request.Hours);
+            IDepartmentOvertimeCalculator calculator = factory.GetOvertimeCalculator(departmentName);
+            decimal pay = calculator.CalculateOvertime(request.Hours);
 
-            _logger.Log($"Calculated overtime for Employee {request.EmployeeId}, Dept: {departmentName}, Hours: {request.Hours} => Pay: Rs. {pay}");
+            _logger.Log($"[AbstractFactory] Employee {employee.EmployeeName} (Dept: {departmentName}) => Rs. {pay}");
             return Ok(new { OvertimePay = pay });
         }
+
     }
 }

@@ -665,7 +665,10 @@
       },
       "EmployeeBAL/1.0.0": {
         "runtime": {
-          "EmployeeBAL.dll": {}
+          "EmployeeBAL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EmployeeDAL/1.0.0": {
@@ -674,7 +677,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4"
         },
         "runtime": {
-          "EmployeeDAL.dll": {}
+          "EmployeeDAL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
