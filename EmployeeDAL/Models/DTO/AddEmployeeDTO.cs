@@ -13,6 +13,5 @@ namespace EmployeeDAL.Models.DTO
         public int DepartmentId { get; set; }
         public string EmployeeEmail { get; set; }
         public DateTime EmployeeJoiningDate { get; set; }
-        public string EmployeeStatus { get; set; }
     }
 }

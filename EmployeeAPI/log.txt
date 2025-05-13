@@ -12,3 +12,6 @@
 12-05-2025 18:05:59: [Factory] Employee shivam (Dept: Sales) => Rs. 20000
 12-05-2025 18:06:14: [AbstractFactory] Employee john (Dept: IT) => Rs. 40000
 12-05-2025 18:13:54: [Factory] Employee shivam (Dept: Sales) => Rs. 20000
+13-05-2025 15:43:35: Created employee ssss
+13-05-2025 15:43:40: Fetched all employees
+13-05-2025 15:44:58: Fetched all employees
